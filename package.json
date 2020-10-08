@@ -1,0 +1,27 @@
+{
+  "name": "teste-cilia",
+  "version": "1.0.0",
+  "description": "Teste do processo seletivo",
+  "main": "test.js",
+  "scripts": {
+    "test": "npm test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KasTs/teste-automatizado.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "teste-automatizado",
+    "selenium"
+  ],
+  "author": "Thiago da Silva Fagundes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KasTs/teste-automatizado/issues"
+  },
+  "homepage": "https://github.com/KasTs/teste-automatizado#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
