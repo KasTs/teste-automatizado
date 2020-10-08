@@ -17,7 +17,7 @@ classe: '//*[@id="flights"]/div/div/form/div/div/div[1]/div[2]/div/div/a/span'
     await driver.findElement(By.xpath(comandos.chegada).sendKeys(guarulhos);
     await driver.findElement(By.xpath(comandos.classe);
 
-    //*await driver.wait(until.titleIs('webdriver - Google Search'), 1000);
+    //*await driver.wait(until.titleIs('webdriver - '), 1000);
   //} finally {
     //await driver.quit();
   //}

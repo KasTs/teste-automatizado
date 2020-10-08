@@ -8,8 +8,6 @@ const comandos = {
   mensagemFalhaLogin: '//*[@id="loginfrm"]/div[1]/div'
 };
 
-
-
 (async function falha() {
   let driver = await new Builder().forBrowser('chrome').build();
   try {

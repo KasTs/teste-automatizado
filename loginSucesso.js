@@ -7,8 +7,6 @@ const comandos = {
   botaoLogin: '//*[@id="loginfrm"]/button'
 };
 
-
-
 (async function falha() {
   let driver = await new Builder().forBrowser('chrome').build();
   try {
@@ -17,7 +15,7 @@ const comandos = {
     await driver.findElement(By.xpath(comandos.password)).sendKeys(data[1].password, Key.RETURN);
     await driver.findElement(By.xpath(comandos.botaoLogin)).click;
 
-    //*await driver.wait(until.titleIs('webdriver - Google Search'), 1000);
+    //*await driver.wait(until.titleIs('webdriver -'), 1000);
   } finally {
     //await driver.quit();
   }
