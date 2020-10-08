@@ -1,11 +1,11 @@
 const { Builder, By, Key, until } = require('selenium-webdriver');
 const data = require('./data');
 
-/*const comandos = {
-  login: '//*[@id="loginfrm"]/div[3]/div[1]/label/input',
-  password: '//*[@id="loginfrm"]/div[3]/div[2]/label/span',
-  botaoLogin: '//*[@id="loginfrm"]/button'
-};*/
+const comandos = {
+partida: '//*[@id="select2-drop"]/div/input',
+chegada: '//*[@id="select2-drop"]/div/input',
+classe: '//*[@id="flights"]/div/div/form/div/div/div[1]/div[2]/div/div/a/span'
+};
 
 
 
@@ -13,12 +13,12 @@ const data = require('./data');
   let driver = await new Builder().forBrowser('chrome').build();
   try {
     await driver.get(data[0].url);
-    await driver.findElement(By.xpath(comandos.login)).sendKeys(data[0].Email);
-    await driver.findElement(By.xpath(comandos.password)).sendKeys(data[0].password);
-    await driver.findElement(By.xpath(comandos.botaoLogin)).click;
+    await driver.findElement(By.xpath(comandos.partida)).sendKeys(goiania);
+    await driver.findElement(By.xpath(comandos.chegada).sendKeys(guarulhos);
+    await driver.findElement(By.xpath(comandos.classe);
 
     //*await driver.wait(until.titleIs('webdriver - Google Search'), 1000);
-  } finally {
+  //} finally {
     //await driver.quit();
-  }
+  //}
 })();

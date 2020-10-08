@@ -11,7 +11,9 @@ const loginFalha = {
 const buscaVoos = {
     partida: "goiânia",
     chegada: "guarulhos",
-    classe: "first"
+    classe: "first",
+    url: "https://www.phptravels.net/login"
 }
+
 
 module.exports = [loginFalha, loginSucesso, buscaVoos];
