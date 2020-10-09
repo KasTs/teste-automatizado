@@ -7,8 +7,6 @@ chegada: '//*[@id="select2-drop"]/div/input',
 classe: '//*[@id="flights"]/div/div/form/div/div/div[1]/div[2]/div/div/a/span'
 };
 
-
-
 (async function falha() {
   let driver = await new Builder().forBrowser('chrome').build();
   try {
